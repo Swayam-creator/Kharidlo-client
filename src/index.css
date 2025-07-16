@@ -1,19 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: 'headline';
-  src: url('/frontend/src/assets/fonts/Rejouice-Headline.woff2') format('woff2');
-  font-weight: 800;
+  src: url('/fonts/Rejouice-Headline.woff2') format('woff2');
+  font-weight: 1000;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'regularfont';
-  src: url('/frontend/src/assets/fonts/PPMori-Regular.otf') format('woff2');
+  src: url('/fonts/PPMori-Regular.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'NB';
+  src: url('/fonts/NBInternationalProBoo.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ut';
+  src: url('/fonts/utboldonsedemoregular-ovrpz.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 ::selection {
   background: #000000;
   color: #ffffff;

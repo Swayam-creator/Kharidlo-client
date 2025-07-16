@@ -6,8 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-       headline: ['headline', 'sans-serif'],
-        regular: ['regularfont', 'sans-serif'],
+       fontFamily: {
+        headline: ['headline', 'sans-serif'],
+        regularfont: ['regularfont', 'sans-serif'],
+        NB: ['NB', 'sans-serif'],
+        Ut: ['Ut', 'sans-serif'],
+       },
+       fontWeight:{
+        extra:'1000'
+       }
     },
   },
   plugins: [],
